@@ -55,7 +55,7 @@ ROOT_URLCONF = 'bdFamilia.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['familia/plantillas'],
+        'DIRS': [Path('familia/plantillas/')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
